@@ -9265,4 +9265,4 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 
 })( window );
 
-module.exports = jQuery;
+module.exports = window.jQuery;
