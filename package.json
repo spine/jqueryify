@@ -1,7 +1,7 @@
 {
   "name": "jqueryify",
   "description": "jQuery lib for browsers",
-  "version": "1.8.0",
+  "version": "1.8.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/spine/jqueryify.git"
