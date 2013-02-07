@@ -2,7 +2,7 @@
   "name": "jqueryify",
   "description": "jQuery lib for browsers",
   "version": "1.9.1",
-  "contributors": ["maccman", "aeischeid",],
+  "contributors": ["maccman", "aeischeid"],
   "repository": {
     "type": "git",
     "url": "git://github.com/spine/jqueryify.git"
