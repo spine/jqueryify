@@ -9764,16 +9764,13 @@ jQuery.fn.size = function() {
 jQuery.fn.andSelf = jQuery.fn.addBack;
 
 // })();
-if ( typeof module === "object" && module && typeof module.exports === "object" ) {
+if ( typeof module === "object" && typeof module.exports === "object" ) {
 	// Expose jQuery as module.exports in loaders that implement the Node
 	// module pattern (including browserify). Do not create the global, since
 	// the user will be storing it themselves locally, and globals are frowned
 	// upon in the Node module world.
 	module.exports = jQuery;
 } else {
-	// Otherwise expose jQuery to the global object as usual
-	window.jQuery = window.$ = jQuery;
-
 	// Register as a named AMD module, since jQuery can be concatenated with other
 	// files that may use define, but not via a proper concatenation script that
 	// understands anonymous AMD modules. A named AMD is safest and most robust
@@ -9786,7 +9783,12 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 	}
 }
 
+// If there is a window object, that at least has a document property,
+// define jQuery and $ identifiers
+if ( typeof window === "object" && typeof window.document === "object" ) {
+	window.jQuery = window.$ = jQuery;
+}
+
 })( window );
 
 module.exports = window.jQuery;
-
