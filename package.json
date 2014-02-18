@@ -1,11 +1,11 @@
 {
   "name": "jqueryify",
   "description": "jQuery lib for browsers",
-  "version": "1.9.1",
+  "version": "1.11.0",
   "contributors": ["maccman", "aeischeid"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/spine/jqueryify.git"
+    "url": "git://github.com/spine/jqueryify.git#1.11"
   },
   "author": "Alex MacCaw <info@eribium.org>",
   "engines": {
