@@ -1,7 +1,7 @@
 {
   "name": "jqueryify",
   "description": "jQuery lib for browsers",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "contributors": ["maccman", "aeischeid"],
   "repository": {
     "type": "git",
